@@ -528,6 +528,10 @@ $(document).ready(function(){
 			{ src: "uk_playlist/Guitar_Bass_heartfelt 2.mp3", title: "Guitar_Bass_heartfelt 2", artist: "MUSIA ONE", cover: "images/karaoke_cover4.jpg" },
 			{ src: "uk_playlist/Hiphop 1 잔잔하면서 활기찬.mp3", title: "Hiphop 1 잔잔하면서 활기찬", artist: "MUSIA ONE", cover: "images/kpop_cover5.jpg" },
 			{ src: "uk_playlist/Pop_guitar_slow 1.mp3", title: "Pop_guitar_slow 1", artist: "MUSIA ONE", cover: "images/game_cover2.jpg" },
+			{ src: "simple_playlist/R&B 7_밝으면서 잔잔한.mp3", title: "R&B 7", artist: "MUSIA ONE", cover: "images/game_cover7.jpg" },
+			{ src: "simple_playlist/R&B 8_밝으면서 잔잔한.mp3", title: "R&B 8", artist: "MUSIA ONE", cover: "images/kpop_cover9.jpg" },
+			{ src: "simple_playlist/R&B 9_밝으면서 모던한.mp3", title: "R&B 9", artist: "MUSIA ONE", cover: "images/game_cover5.jpg" },
+			{ src: "simple_playlist/R&B 10_밝으면서 모던한.mp3", title: "R&B 10", artist: "MUSIA ONE", cover: "images/kpop_cover1.jpg" },
 		],
 		mini: [
 			{ src: "mini_playlist/Classic 1(잔잔하고 조용한).mp3", title: "Classic 1(잔잔하고 조용한)", artist: "MUSIA ONE", cover: "images/cover1.jpg" },
@@ -536,6 +540,9 @@ $(document).ready(function(){
 			{ src: "mini_playlist/Classic_Piano_slow 2.mp3", title: "Classic_Piano_slow 2", artist: "MUSIA ONE", cover: "images/karaoke_cover4.jpg" },
 			{ src: "mini_playlist/카페(잔잔한 느낌) (Classic, R&B).mp3", title: "카페(잔잔한 느낌) (Classic, R&B)", artist: "MUSIA ONE", cover: "images/classic_cover5.jpg" },
 			{ src: "mini_playlist/Pop_guitar_slow 1.mp3", title: "Pop_guitar_slow 1", artist: "MUSIA ONE", cover: "images/game_cover2.jpg" },
+			{ src: "park_playlist/Classic 7.mp3", title: "Classic 7", artist: "Suno AI", cover: "images/cover7.jpg" },
+			{ src: "park_playlist/Classic 8.mp3", title: "Classic 8", artist: "Suno AI", cover: "images/cover8.jpg" },
+			{ src: "park_playlist/Classic 9.mp3", title: "Classic 9", artist: "Suno AI", cover: "images/cover9.jpg" },
 		],
 		retro: [
 			{ src: "retro_playlist/Pop_guitar_slow.mp3", title: "Pop_guitar_slow", artist: "MUSIA ONE", cover: "images/classic_cover1.jpg" },
@@ -543,6 +550,11 @@ $(document).ready(function(){
 			{ src: "retro_playlist/Romantic_Accoustic pop 2.mp3", title: "Romantic_Accoustic pop 2", artist: "MUSIA ONE", cover: "images/karaoke_cover3.jpg" },
 			{ src: "retro_playlist/Romantic_Ballad 1.mp3", title: "Romantic_Ballad 1", artist: "MUSIA ONE", cover: "images/karaoke_cover4.jpg" },
 			{ src: "retro_playlist/Romantic_Ballad 2.mp3", title: "Romantic_Ballad 2", artist: "MUSIA ONE", cover: "images/classic_cover5.jpg" },
+			{ src: "simple_playlist/R&B 6_밝으면서 잔잔한.mp3", title: "R&B 6", artist: "MUSIA ONE", cover: "images/game_cover2.jpg" },
+			{ src: "simple_playlist/R&B 7_밝으면서 잔잔한.mp3", title: "R&B 7", artist: "MUSIA ONE", cover: "images/game_cover7.jpg" },
+			{ src: "simple_playlist/R&B 8_밝으면서 잔잔한.mp3", title: "R&B 8", artist: "MUSIA ONE", cover: "images/kpop_cover9.jpg" },
+			{ src: "simple_playlist/R&B 9_밝으면서 모던한.mp3", title: "R&B 9", artist: "MUSIA ONE", cover: "images/game_cover5.jpg" },
+			{ src: "simple_playlist/R&B 10_밝으면서 모던한.mp3", title: "R&B 10", artist: "MUSIA ONE", cover: "images/kpop_cover1.jpg" },
 		],
         default: [
             { src: "default_playlist/Default 1.mp3", title: "SASA", artist: "SASA", cover: "images/default-cover.jpg" },
