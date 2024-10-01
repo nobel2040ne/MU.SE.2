@@ -479,7 +479,7 @@ $(document).ready(function(){
             { src: "sports_playlist/Kpop 3.mp3", title: "Kpop 3",     artist: "Suno AI", cover: "images/kpop_cover3.jpg" },
 			{ src: "sports_playlist/HipHop 4.mp3", title: "HipHop 4", artist: "Suno AI", cover: "images/kpop_cover4.jpg" },
 			{ src: "sports_playlist/HipHop 5.mp3", title: "HipHop 5", artist: "Suno AI", cover: "images/kpop_cover5.jpg" },
-			{ src: "sports_playlist/Kpop 6.mp3", title: "Kpop 7",     artist: "Suno AI", cover: "images/kpop_cover6.jpg" },
+			{ src: "sports_playlist/Kpop 6.mp3", title: "Kpop 6",     artist: "Suno AI", cover: "images/kpop_cover6.jpg" },
 			{ src: "sports_playlist/Kpop 7.mp3", title: "Kpop 7",     artist: "Suno AI", cover: "images/kpop_cover7.jpg" },
 			{ src: "sports_playlist/Kpop 8.mp3", title: "Kpop 8",     artist: "Suno AI", cover: "images/kpop_cover8.jpg" },
 			{ src: "sports_playlist/EDM 9.mp3", title: "EDM 9",       artist: "Suno AI", cover: "images/kpop_cover9.jpg" },
@@ -511,7 +511,7 @@ $(document).ready(function(){
         ],
 		simple: [
             { src: "simple_playlist/Electronic 1.mp3", title: "Electronic 1", artist: "MUSIA ONE", cover: "images/game_cover1.jpg" },
-            { src: "simple_playlist/Pop 2_잔잔, 모던.mp3", title: "Pop 2", artist: "MUSIA ONE", cover: "images/kpop_cover2.jpg" },
+            { src: "simple_playlist/Pop 2_잔잔, 모던.mp3", title: "Pop 2", artist: "MUSIA ONE", cover: "images/kpop_cover2.jpg" },
 			{ src: "simple_playlist/Pop 3_잔잔, 모던.mp3", title: "Pop 3", artist: "MUSIA ONE", cover: "images/karaoke_cover3.jpg" },
 			{ src: "simple_playlist/R&B 4_밝으면서 잔잔한.mp3", title: "R&B 4", artist: "MUSIA ONE", cover: "images/karaoke_cover4.jpg" },
 			{ src: "simple_playlist/R&B 5_밝으면서 잔잔한.mp3", title: "R&B 5", artist: "MUSIA ONE", cover: "images/kpop_cover5.jpg" },
