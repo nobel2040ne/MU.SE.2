@@ -1,0 +1,365 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>인문자연탐사 B04</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+	</head>
+	<body class="is-preload">
+		<div id="wrapper">
+			<header id="header">
+				<div class="content">
+					<div class="inner">
+						<h1>인문자연탐사 B04</h1>
+							<p>
+								안녕하세요 인문자연탐사 <strong class="gradient-text2">B04</strong>조 김정원, 이아준, 서유찬, 이진명입니다.
+							</p>
+							<p>
+								ABOUT US에 저희의 탐사 과정을 적어두었고, 
+								GENERATE에서 음악을 생성할 수 있습니다
+							</p>
+							<p>
+								저희는 우리 도시의 다양한 상권을 돌아다니며, <strong class="gradient-text2">150개</strong> 이상의 음악을 수집 및 분석하였으며,
+								이를 기반으로 카테고리를 분류하여, 각 카테고리마다 음악 플레이리스트를 음악에 특화된 생성형 AI(Suno, Musia One)을
+								사용하여 <stron class="gradient-text2">70개</stron>이상의 음악으로 구성하였습니다. 
+							</p>
+					</div>
+				</div>
+				<nav>
+					<ul>
+						<li><a href="#intro">About Us</a></li>
+						<li><a href="#work">Generate</a></li>
+					</ul>
+				</nav>
+			</header>
+
+			<div class="main-content" id="main">
+				<article id="intro">
+					<h2 class="major">Introducing Our Research</h2>
+					<h2 class="gradient-text">Topic</h2>
+					<p>
+						<strong class="gradient-text2">음악의 소비</strong>: 개인별 취향과 우리 도시 상권을 고려한 맞춤형 <strong class="gradient-text2">AI</strong> 배경음악 서비스 제공
+					</p>
+					<p>
+						본 탐사는 상권의 특성을 고려한 맞춤 배경음악을 AI 도구를 활용하여 생성하는 것이 목적입니다.
+					</p>
+
+					<hr class="divider">
+
+					<h2 class="gradient-text">Survey</h2>
+					<p>
+						본 설문은 10대의 음악 취향과 본 연구가 사회적 이점을 가질 수 있을지에 대한 데이터를 제공합니다.
+					</p>
+					<p>설문 대상: 세종과학예술영재학교 1, 2학년 학생</p>
+					<p>설문 방법: Google Forms</p>
+					<p>수집 시간: 2024.09.29 ~ 2024.10.01</p>
+					
+					<h3>🎧 좋아하는 음악 장르가 무엇인가요?</h3>
+					<div style="width: 100%; margin: 0 auto;">
+						<canvas id="myChart"></canvas>
+					</div>
+					<p></p>
+					
+					<h3>🍸 카페(음료수, 케이크, 빵...)에서는 고객에게 어떠한 종류의 음악을 들려주면 좋을까요?</h3>
+					<div style="width: 100%; margin: 0 auto;">
+						<canvas id="myChart2"></canvas>
+					</div>
+					<p></p>
+
+					<h3>🎰 액티비티(스포츠몬스터, 볼링장, 오락실, 노래방...)에서는 고객에게 어떠한 종류의 음악을 들려주면 좋을까요?</h3>
+					<div style="width: 100%; margin: 0 auto;">
+						<canvas id="myChart3"></canvas>
+					</div>
+					<p></p>
+
+					<h3>© 상권에서 틀어주는 음악이 저작권에 위배된다고 생각해본 적이 있으신가요?</h3>
+					<p>네 57.4%, 아니요 42.6%</p>
+
+					<h3>🎶 생성형 AI로 작곡된 음악을 상권에서 사용한다면 효과적이라 생각하시나요?</h3>
+					<p>네 54.4%, 아니요 45.6%</p>
+
+					<hr class="divider">
+
+					<h2 class="gradient-text">What did we do?</h2>
+					<p>
+						24.09.30, 투썸플레이스, 79파운야드, 몽풀, 아디야, 페이버베이크숍, 규카츠 나성점, 호수공원, 나사볼링장, 
+						오잉코인노래연습장을 방문하였으며, 1시간 동안 머물며 총 <strong class="gradient-text">150개</strong> 이상의 음악을 
+						수집하고, 분석하였습니다.
+					</p>
+
+					<h3>투썸플레이스 - 09:58 ~ 11:00</h3>
+					<p>
+						22곡을 수집하였습니다.최근 노래 중 R&B, Pop의 비율이 높으며, 인지도가 높은 노래와 낮은 노래가
+						적절히 섞여있다. 노래들의 속도는 적당했으며, 평균 2분 59초의 적당한 재생시간을 가집니다.
+					</p>
+					<p>
+						10:00 : 5명의 고객이 주문/수령 후 바로 나감
+						~11:00 : 4명 일, 대화 또는 프로젝트를 하며 시간을 보냄
+					</p>
+
+					<h3>79 파운야드 - 11:10 ~ 11:50</h3>
+					<p>
+						10곡을 수집하였습니다. Pop, Dance 음악을 사용하며, 
+						3분 내외의 음악, 평균 2020년의 노래이며, 비교적 최신 곡은 아니지만 인지도가 높은 곡들로 구성됩니다.
+					</p>
+					<p>
+						오전시간이라 사람이 아무도 없었습니다.
+					</p>
+
+					<h3>페이버베이크숍 - 11:10 ~ 11:50</h3>
+					<p>
+						10곡을 수집하였습니다. 느린 음악을 사용하며, 한국 노래의 경우 최근 긴 발라드, 
+						외국 노래의 경우 2~3년 전의 비교적 짧은 R&B, Soul계열의 Pop을 사용, 인지도 낮은 음악 사용합니다.
+					</p>
+					<p>
+						11:31 : 1명의 고객이 입장하였습니다.
+					</p>
+
+					<h3>몽풀 - 11:10 ~ 11:50</h3>
+					<p>
+						10곡을 수집하였습니다. 발라드 장르의 곡들이 굉장히 많이 나왔으며, 노래가 모두 잔잔하며 길었습니다.
+					</p>
+					<p>
+						11:40 : 2명의 사장님의 지인이 입장하였습니다.
+						11:46 : 2명의 고객이 입장하였으며, 1명은 영유아였습니다.
+					</p>
+					
+					<h3>이디야 - 11:10 ~ 11:50</h3>
+					<p>
+						10곡을 수집하였습니다. K-POP 댄스 곡이 대부분을 차지하며, 
+						모두 한국 아이돌의 노래입니다. 곡의 길이는 평균 3분정도이며, 최신 곡들이 많았습니다.
+					</p>
+					<p>
+						11:10 : 각각 1명, 1명, 4명으로 3팀이 있었습니다.
+						11:45 : 1명의 고객이 입장하였습니다.
+						11:50 : 1명의 고객이 나갔습니다.
+					</p>
+
+					<h3>호수공원 - 12:40 ~ 13:05</h3>
+					<p>
+						공원에는 아무런 음악이 나오지 않았습니다. 호수공원 중앙에 위치한 타원형 홀에서
+						클래식, 밴드 연주회가 진행된다는 것을 알게되었으며, 이를 토대로 공원에 맞는 음악을 
+						Classic으로 추천하였습니다.
+					</p>
+
+					<h3>나사볼링장 13:30 ~ 14:30</h3>
+					<p>
+						2024년의 K-Pop 음악을 반복하여 재생합니다. 2017년에 제작된 방탄소년당의 봄날이 나온것을 보아,
+						최근 K-Pop을 기반으로 하되, 중간중간 예전 유명한 노래도 재생됨을 유추할 수 있습니다.
+					</p>
+
+					<h3>오잉코인노래연습장 14:50 ~ 15:10</h3>
+					<p>
+						본 장소의 경우, 타인이 어떠한 음악을 부르는지 알 수 있습니다. BlackPink, BigBang 노래 등
+						모두가 함께 부를 수 있는 노래 또는 혼자서 발라드를 부릅니다. TJ 인기차트에는 최근 노래의 비중보다
+						예뻤어, 고민중독, Let It Go, I'm Not The Only One 등 예전 노래의 비중이 많았습니다.
+					</p>
+
+				</article>
+				<script>
+					const canvasContext = document.getElementById('myChart').getContext('2d');
+					const myChart = new Chart(canvasContext, {
+						type: 'bar',
+						data: {
+							labels: ['Chart', 'K-Pop', 'Pop', 'Ballade', 'Hip-Hop/Rap', 'EDM', 'Indie', 'Classic', 'Jazz', 'R&B', 'J-Pop', 'Rock'],
+							datasets: [{
+								label: 'Responses',
+								data: [8, 35, 30, 23, 18, 9, 18, 13, 14, 11, 16, 6],
+								backgroundColor: 'rgba(178, 34, 34, 0.7)',
+								borderColor: 'rgba(178, 34, 34, 0.7)',
+								borderWidth: 1
+							}]
+						},
+						options: {
+							responsive: true,
+							scales: {
+								y: {
+									beginAtZero: true,
+									grid: {color:'rgba(255,255,255,0.2)'},
+									ticks: {color:'rgba(255,255,255,0.2)'}
+								}
+							}
+						}
+					});
+
+					const canvasContext2 = document.getElementById('myChart2').getContext('2d');
+					const myChart2 = new Chart(canvasContext2, {
+						type: 'bar',
+						data: {
+							labels: ['Chart', 'NCS', 'Slow Music', 'Fast Music'],
+							datasets: [{
+								label: 'Responses',
+								data: [23, 9, 52, 0],
+								backgroundColor: 'rgba(178, 34, 34, 0.7)',  // Transparent bar color
+								borderColor: 'rgba(178, 34, 34, 1)',
+								borderWidth: 1
+							}]
+						},
+						options: {
+							responsive: true,
+							scales: {
+								y: {
+									beginAtZero: true,
+									grid: {color:'rgba(255,255,255,0.2)'},
+									ticks: {color:'rgba(255,255,255,0.2)'}
+								}
+							}
+						}
+					});
+
+					const canvasContext3 = document.getElementById('myChart3').getContext('2d');
+					const myChart3 = new Chart(canvasContext3, {
+						type: 'bar',
+						data: {
+							labels: ['Chart', 'NCS', 'Slow Music', 'Fast Music'],
+							datasets: [{
+								label: 'Responses',
+								data: [41, 9, 0, 44],
+								backgroundColor: 'rgba(178, 34, 34, 0.6)',  // Transparent bar color
+								borderColor: 'rgba(178, 34, 34, 1)',
+								borderWidth: 1
+							}]
+						},
+						options: {
+							responsive: true,
+							scales: {
+								y: {
+									beginAtZero: true,
+									grid: {color:'rgba(255,255,255,0.2)'},
+									ticks: {color:'rgba(255,255,255,0.2)'}
+								}
+							}
+						}
+					});
+				</script>
+
+				<article id="work">
+					<h2 class="major">Music For You</h2>
+					<button id="start-button">Click Here</button>
+								
+					<div id="questionnaire-wrapper" style="display: none;">
+						<div class="question-slide active" data-question="1">
+							<h3>1. 원하시는 공간을 선택해주세요</h3>
+							<div class="options">
+								<div class="selectable-option" data-value="cafe">#카페</div>
+								<div class="selectable-option" data-value="arcade">#아케이드</div>
+								<div class="selectable-option" data-value="park">#공원</div>
+							</div>
+							<button class="next-button" disabled>NEXT</button>
+						</div>
+								
+						<div class="question-slide" data-question="2">
+							<h3>2. 어떤 종류의 아케이드인가요?</h3>
+							<div class="options">
+								<div class="selectable-option" data-value="sports">#스포츠</div>
+								<div class="selectable-option" data-value="game">#오락실</div>
+								<div class="selectable-option" data-value="karaoke">#노래방</div>
+							</div>
+							<button class="next-button" disabled>NEXT</button>
+						</div>
+								
+						<div class="question-slide" data-question="3">
+							<h3>2. 무엇을 파는 카페인가요?</h3>
+							<div class="options">
+								<div class="selectable-option" data-value="coffee">#커피</div>
+								<div class="selectable-option" data-value="ade&latte">#에이드&라떼</div>
+								<div class="selectable-option" data-value="break">#빵</div>
+								<div class="selectable-option" data-value="icecream">#아이스크림</div>
+							</div>
+							<button class="next-button" disabled>NEXT</button>
+						</div>
+								
+						<div class="question-slide" data-question="4">
+							<h3>3. 전체적인 분위기는 어떠한가요?</h3>
+							<div class="options">
+								<div class="selectable-option" data-value="simple">#심플 #모던 #트렌디 #밝은</div>
+								<div class="selectable-option" data-value="uk">#유럽풍 #이국적인</div>
+								<div class="selectable-option" data-value="mini">#아늑함 #아기자기</div>
+								<div class="selectable-option" data-value="retro">#레트로 #감성적</div>
+							</div>
+							<button class="next-button" disabled>NEXT</button>
+						</div>
+	
+						<div class="question-slide" data-question="5">
+							<h3>4. 인테리어는 어떠한 가요?</h3>
+							<div class="options">
+								<div class="selectable-option" data-value="glass">#통유리 샷시</div>
+								<div class="selectable-option" data-value="environment">#자연액자</div>
+								<div class="selectable-option" data-value="woodenframe">#우드프레임</div>
+								<div class="selectable-option" data-value="red">#레드컬러</div>
+								<div class="selectable-option" data-value="block">#벽돌</div>
+								<div class="selectable-option" data-value="steelframe">#철재창</div>
+								<div class="selectable-option" data-value="mint">#민트색</div>
+								<div class="selectable-option" data-value="white">#하얀색</div>
+								<div class="selectable-option" data-value="sement">#시멘트벽돌</div>
+								<div class="selectable-option" data-value="bage">#베이지</div>
+							</div>
+							<button class="next-button" disabled>NEXT</button>
+						</div>
+									
+						<div class="question-slide" data-question="6">
+							<h3>당신을 위한 플레이리스트 입니다!</h3>
+							<button class="show-playlist-button">Click Here</button>
+						</div>
+					</div>
+								
+					<div id="playlist-container" style="display: none;">
+						<h3>음악 플레이리스트</h3>
+						<ul id="playlist">
+							<li data-src="park_playlist/Classic 1.mp3" data-title="Classic 1" data-artist="아티스트 1" data-cover="images/cover1.jpg">Classic 1</li>
+							<li data-src="park_playlist/Classic 2.mp3" data-title="Classic 2" data-artist="아티스트 2" data-cover="images/cover2.jpg">Classic 2</li>
+							<li data-src="park_playlist/Classic 3.mp3" data-title="Classic 3" data-artist="아티스트 3" data-cover="images/cover3.jpg">Classic 3</li>
+							<li data-src="park_playlist/Classic 4.mp3" data-title="Classic 4" data-artist="아티스트 4" data-cover="images/cover4.jpg">Classic 4</li>
+							<li data-src="park_playlist/Classic 5.mp3" data-title="Classic 5" data-artist="아티스트 5" data-cover="images/cover5.jpg">Classic 5</li>
+							<li data-src="park_playlist/Classic 6.mp3" data-title="Classic 6" data-artist="아티스트 6" data-cover="images/cover6.jpg">Classic 6</li>
+							<li data-src="park_playlist/Classic 7.mp3" data-title="Classic 7" data-artist="아티스트 7" data-cover="images/cover7.jpg">Classic 7</li>
+							<li data-src="park_playlist/Classic 8.mp3" data-title="Classic 8" data-artist="아티스트 8" data-cover="images/cover8.jpg">Classic 8</li>
+							<li data-src="park_playlist/Classic 9.mp3" data-title="Classic 9" data-artist="아티스트 9" data-cover="images/cover9.jpg">Classic 9</li>
+						</ul>
+						
+						<div id="custom-player">
+							<div id="current-track">
+								<img id="cover-image" src="images/default-cover.jpg" alt="앨범 아트">
+								<div id="track-info">
+									<span id="track-title">제목</span><br>
+									<span id="track-artist">아티스트</span>
+								</div>
+							</div>
+							<div id="controls">
+								<button id="prev-button"><i class="fas fa-backward"></i></button>
+								<button id="play-pause-button"><i class="fas fa-play"></i></button>
+								<button id="next-button"><i class="fas fa-forward"></i></button>
+							</div>
+							<div id="progress-container">
+								<span id="current-time">0:00</span>
+								<input type="range" id="progress-bar" value="0" min="0" max="100">
+								<span id="duration">0:00</span>
+							</div>
+							<div id="volume-container">
+								<i class="fas fa-volume-down"></i>
+								<input type="range" id="volume-bar" value="100" min="0" max="100">
+								<i class="fas fa-volume-up"></i>
+							</div>
+						</div>
+		
+						<audio id="audio-player" controls style="display: none;"></audio>
+						<p> </p>
+						<button id="reset-button">RESET</button>
+					</div>
+
+				</article>
+			</div>
+		</div>
+
+		</div>
+		<div id="bg"></div>
+		<script src="assets/js/browser.min.js"></script>
+		<script src="assets/js/breakpoints.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<script src="assets/js/main.js"></script>
+	</body>
+</html>
